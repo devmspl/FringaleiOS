@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153CFAE2435289834A5C49BA /* Pods_FringaleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382DBCC930FECF68ADD93AAA /* Pods_FringaleTests.framework */; };
+		6F032E5A2941EB3700D89AA6 /* PersonalDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F032E592941EB3600D89AA6 /* PersonalDetailVC.swift */; };
+		6F032E5C29420AA400D89AA6 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F032E5B29420AA300D89AA6 /* HomeScreenVC.swift */; };
+		6F032E5E29420AE300D89AA6 /* ProfileSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F032E5D29420AE300D89AA6 /* ProfileSettingVC.swift */; };
+		6F32F1DE2947508E00CF8067 /* AllRestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F32F1DD2947508E00CF8067 /* AllRestaurantsVC.swift */; };
+		6F45F406294305C000269FD1 /* SettingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45F405294305C000269FD1 /* SettingList.swift */; };
+		6F45F40829431E5700269FD1 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45F40729431E5700269FD1 /* SearchVC.swift */; };
+		6F45F40E29435D1000269FD1 /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45F40D29435D1000269FD1 /* tabbarViewController.swift */; };
+		6F45F4102943628C00269FD1 /* YourOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45F40F2943628C00269FD1 /* YourOrderVC.swift */; };
+		6F5034D9294B414E0052CBB2 /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5034D6294B414E0052CBB2 /* OtpVerificationVC.swift */; };
+		6F5034DA294B414E0052CBB2 /* GetStartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5034D7294B414E0052CBB2 /* GetStartScreen.swift */; };
+		6F5034DB294B414E0052CBB2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5034D8294B414E0052CBB2 /* SignUpVC.swift */; };
+		6F602F462948825F00885432 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F602F452948825F00885432 /* SideMenu.swift */; };
+		6F628FAA294D84CA00F8C0AD /* mapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F628FA9294D84C900F8C0AD /* mapViewVC.swift */; };
+		6F628FAC294D8A7F00F8C0AD /* AppUtlis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F628FAB294D8A7F00F8C0AD /* AppUtlis.swift */; };
+		6F628FAE294D8AD800F8C0AD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F628FAD294D8AD800F8C0AD /* Constant.swift */; };
+		6F6555172949E19D00034D1D /* AllRestourantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6555162949E19D00034D1D /* AllRestourantVC.swift */; };
+		6F66B1DF29502E040049D42E /* CurrentLocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F66B1DE29502E040049D42E /* CurrentLocationCell.xib */; };
+		6F66B1E129502E0F0049D42E /* CurrentLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F66B1E029502E0E0049D42E /* CurrentLocationCell.swift */; };
+		6F702C74293F200F000EFD74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702C73293F200F000EFD74 /* AppDelegate.swift */; };
+		6F702C76293F200F000EFD74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702C75293F200F000EFD74 /* SceneDelegate.swift */; };
+		6F702C78293F200F000EFD74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702C77293F200F000EFD74 /* ViewController.swift */; };
+		6F702C7B293F200F000EFD74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F702C79293F200F000EFD74 /* Main.storyboard */; };
+		6F702C7D293F2015000EFD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F702C7C293F2015000EFD74 /* Assets.xcassets */; };
+		6F702C80293F2015000EFD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F702C7E293F2015000EFD74 /* LaunchScreen.storyboard */; };
+		6F702C8B293F2016000EFD74 /* FringaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702C8A293F2016000EFD74 /* FringaleTests.swift */; };
+		6F702C95293F2016000EFD74 /* FringaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702C94293F2016000EFD74 /* FringaleUITests.swift */; };
+		6F702C97293F2016000EFD74 /* FringaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702C96293F2016000EFD74 /* FringaleUITestsLaunchTests.swift */; };
+		6FBACF03294B025300370AE7 /* paymentMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBACF02294B025300370AE7 /* paymentMethodVC.swift */; };
+		6FCD172C2951D5AB0018D89C /* ProfileSettingMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD172B2951D5AB0018D89C /* ProfileSettingMenuVC.swift */; };
+		6FEDDB7F294D9359009697C3 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB5C294D9358009697C3 /* ConstraintDescription.swift */; };
+		6FEDDB80294D9359009697C3 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB5D294D9358009697C3 /* ConstraintView.swift */; };
+		6FEDDB81294D9359009697C3 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB5E294D9358009697C3 /* ConstraintLayoutGuideDSL.swift */; };
+		6FEDDB82294D9359009697C3 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB5F294D9358009697C3 /* ConstraintItem.swift */; };
+		6FEDDB83294D9359009697C3 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB60294D9358009697C3 /* ConstraintMultiplierTarget.swift */; };
+		6FEDDB84294D9359009697C3 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB61294D9358009697C3 /* Debugging.swift */; };
+		6FEDDB85294D9359009697C3 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB62294D9358009697C3 /* ConstraintInsetTarget.swift */; };
+		6FEDDB86294D9359009697C3 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB63294D9358009697C3 /* ConstraintMakerFinalizable.swift */; };
+		6FEDDB87294D9359009697C3 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB64294D9358009697C3 /* ConstraintMakerEditable.swift */; };
+		6FEDDB88294D9359009697C3 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB65294D9358009697C3 /* Typealiases.swift */; };
+		6FEDDB89294D9359009697C3 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB66294D9358009697C3 /* UILayoutSupport+Extensions.swift */; };
+		6FEDDB8A294D9359009697C3 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB67294D9358009697C3 /* ConstraintMakerExtendable.swift */; };
+		6FEDDB8B294D9359009697C3 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB68294D9358009697C3 /* ConstraintDSL.swift */; };
+		6FEDDB8C294D9359009697C3 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB69294D9358009697C3 /* ConstraintMakerPriortizable.swift */; };
+		6FEDDB8D294D9359009697C3 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB6A294D9358009697C3 /* ConstraintMakerRelatable.swift */; };
+		6FEDDB8E294D9359009697C3 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB6B294D9358009697C3 /* ConstraintAttributes.swift */; };
+		6FEDDB8F294D9359009697C3 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB6C294D9358009697C3 /* ConstraintLayoutGuide+Extensions.swift */; };
+		6FEDDB90294D9359009697C3 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB6D294D9358009697C3 /* ConstraintConstantTarget.swift */; };
+		6FEDDB91294D9359009697C3 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB6E294D9359009697C3 /* ConstraintViewDSL.swift */; };
+		6FEDDB92294D9359009697C3 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB6F294D9359009697C3 /* ConstraintLayoutSupport.swift */; };
+		6FEDDB93294D9359009697C3 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB71294D9359009697C3 /* ConstraintPriority.swift */; };
+		6FEDDB94294D9359009697C3 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB72294D9359009697C3 /* ConstraintMaker.swift */; };
+		6FEDDB95294D9359009697C3 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB73294D9359009697C3 /* ConstraintRelatableTarget.swift */; };
+		6FEDDB96294D9359009697C3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB74294D9359009697C3 /* ConstraintConfig.swift */; };
+		6FEDDB97294D9359009697C3 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB75294D9359009697C3 /* ConstraintLayoutGuide.swift */; };
+		6FEDDB98294D9359009697C3 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB76294D9359009697C3 /* ConstraintLayoutSupportDSL.swift */; };
+		6FEDDB99294D9359009697C3 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB77294D9359009697C3 /* ConstraintInsets.swift */; };
+		6FEDDB9A294D9359009697C3 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB78294D9359009697C3 /* ConstraintRelation.swift */; };
+		6FEDDB9B294D9359009697C3 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB79294D9359009697C3 /* Constraint.swift */; };
+		6FEDDB9C294D9359009697C3 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB7A294D9359009697C3 /* ConstraintOffsetTarget.swift */; };
+		6FEDDB9D294D9359009697C3 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB7B294D9359009697C3 /* ConstraintPriorityTarget.swift */; };
+		6FEDDB9E294D9359009697C3 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB7C294D9359009697C3 /* ConstraintView+Extensions.swift */; };
+		6FEDDB9F294D9359009697C3 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB7D294D9359009697C3 /* LayoutConstraint.swift */; };
+		6FEDDBA0294D9359009697C3 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDB7E294D9359009697C3 /* LayoutConstraintItem.swift */; };
+		6FEDDBA2294D9411009697C3 /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDBA1294D9411009697C3 /* PaddedTextField.swift */; };
+		6FEDDBA5294D9C93009697C3 /* GeoLocationSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDDBA4294D9C93009697C3 /* GeoLocationSearchVC.swift */; };
+		B06A9AC5A361C4EE927D84C9 /* Pods_Fringale_FringaleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820C657E3841AAEBC4703DD5 /* Pods_Fringale_FringaleUITests.framework */; };
+		B6A838C3F317D8F329145725 /* Pods_Fringale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F261C321DA5B1188C8CBDD /* Pods_Fringale.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F702C87293F2016000EFD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F702C68293F200F000EFD74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F702C6F293F200F000EFD74;
+			remoteInfo = Fringale;
+		};
+		6F702C91293F2016000EFD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F702C68293F200F000EFD74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F702C6F293F200F000EFD74;
+			remoteInfo = Fringale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2282CD30F8A75D29C7B57AB9 /* Pods-Fringale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fringale.release.xcconfig"; path = "Target Support Files/Pods-Fringale/Pods-Fringale.release.xcconfig"; sourceTree = "<group>"; };
+		382DBCC930FECF68ADD93AAA /* Pods_FringaleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FringaleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BAF4780582F0C622C9ED69 /* Pods-Fringale-FringaleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fringale-FringaleUITests.release.xcconfig"; path = "Target Support Files/Pods-Fringale-FringaleUITests/Pods-Fringale-FringaleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62F261C321DA5B1188C8CBDD /* Pods_Fringale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fringale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E4968B87942D7DF1DE1B95 /* Pods-FringaleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringaleTests.debug.xcconfig"; path = "Target Support Files/Pods-FringaleTests/Pods-FringaleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F032E592941EB3600D89AA6 /* PersonalDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailVC.swift; sourceTree = "<group>"; };
+		6F032E5B29420AA300D89AA6 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		6F032E5D29420AE300D89AA6 /* ProfileSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingVC.swift; sourceTree = "<group>"; };
+		6F32F1DD2947508E00CF8067 /* AllRestaurantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRestaurantsVC.swift; sourceTree = "<group>"; };
+		6F45F405294305C000269FD1 /* SettingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingList.swift; sourceTree = "<group>"; };
+		6F45F40729431E5700269FD1 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		6F45F40D29435D1000269FD1 /* tabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
+		6F45F40F2943628C00269FD1 /* YourOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourOrderVC.swift; sourceTree = "<group>"; };
+		6F5034D6294B414E0052CBB2 /* OtpVerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtpVerificationVC.swift; path = Fringale/User/OtpVerificationVC.swift; sourceTree = SOURCE_ROOT; };
+		6F5034D7294B414E0052CBB2 /* GetStartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetStartScreen.swift; path = Fringale/User/GetStartScreen.swift; sourceTree = SOURCE_ROOT; };
+		6F5034D8294B414E0052CBB2 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpVC.swift; path = Fringale/User/SignUpVC.swift; sourceTree = SOURCE_ROOT; };
+		6F602F452948825F00885432 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		6F628FA9294D84C900F8C0AD /* mapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewVC.swift; sourceTree = "<group>"; };
+		6F628FAB294D8A7F00F8C0AD /* AppUtlis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtlis.swift; sourceTree = "<group>"; };
+		6F628FAD294D8AD800F8C0AD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6F6555162949E19D00034D1D /* AllRestourantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRestourantVC.swift; sourceTree = "<group>"; };
+		6F66B1DE29502E040049D42E /* CurrentLocationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentLocationCell.xib; sourceTree = "<group>"; };
+		6F66B1E029502E0E0049D42E /* CurrentLocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationCell.swift; sourceTree = "<group>"; };
+		6F702C70293F200F000EFD74 /* Fringale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fringale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F702C73293F200F000EFD74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F702C75293F200F000EFD74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F702C77293F200F000EFD74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F702C7A293F200F000EFD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F702C7C293F2015000EFD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F702C7F293F2015000EFD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F702C81293F2015000EFD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F702C86293F2016000EFD74 /* FringaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FringaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F702C8A293F2016000EFD74 /* FringaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FringaleTests.swift; sourceTree = "<group>"; };
+		6F702C90293F2016000EFD74 /* FringaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FringaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F702C94293F2016000EFD74 /* FringaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FringaleUITests.swift; sourceTree = "<group>"; };
+		6F702C96293F2016000EFD74 /* FringaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FringaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FBACF02294B025300370AE7 /* paymentMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentMethodVC.swift; sourceTree = "<group>"; };
+		6FCD172B2951D5AB0018D89C /* ProfileSettingMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingMenuVC.swift; sourceTree = "<group>"; };
+		6FEDDB5C294D9358009697C3 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		6FEDDB5D294D9358009697C3 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		6FEDDB5E294D9358009697C3 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6FEDDB5F294D9358009697C3 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		6FEDDB60294D9358009697C3 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		6FEDDB61294D9358009697C3 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		6FEDDB62294D9358009697C3 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		6FEDDB63294D9358009697C3 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		6FEDDB64294D9358009697C3 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		6FEDDB65294D9358009697C3 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		6FEDDB66294D9358009697C3 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		6FEDDB67294D9358009697C3 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		6FEDDB68294D9358009697C3 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		6FEDDB69294D9358009697C3 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		6FEDDB6A294D9358009697C3 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		6FEDDB6B294D9358009697C3 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		6FEDDB6C294D9358009697C3 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		6FEDDB6D294D9358009697C3 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		6FEDDB6E294D9359009697C3 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		6FEDDB6F294D9359009697C3 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		6FEDDB70294D9359009697C3 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		6FEDDB71294D9359009697C3 /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		6FEDDB72294D9359009697C3 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		6FEDDB73294D9359009697C3 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		6FEDDB74294D9359009697C3 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		6FEDDB75294D9359009697C3 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		6FEDDB76294D9359009697C3 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		6FEDDB77294D9359009697C3 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		6FEDDB78294D9359009697C3 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		6FEDDB79294D9359009697C3 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		6FEDDB7A294D9359009697C3 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		6FEDDB7B294D9359009697C3 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		6FEDDB7C294D9359009697C3 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		6FEDDB7D294D9359009697C3 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		6FEDDB7E294D9359009697C3 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		6FEDDBA1294D9411009697C3 /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
+		6FEDDBA4294D9C93009697C3 /* GeoLocationSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLocationSearchVC.swift; sourceTree = "<group>"; };
+		820C657E3841AAEBC4703DD5 /* Pods_Fringale_FringaleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fringale_FringaleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79A823B6CB5F8721D919307 /* Pods-FringaleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringaleTests.release.xcconfig"; path = "Target Support Files/Pods-FringaleTests/Pods-FringaleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF3623E488392DD088AA7AA6 /* Pods-Fringale-FringaleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fringale-FringaleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fringale-FringaleUITests/Pods-Fringale-FringaleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB41D4231038765C096E934B /* Pods-Fringale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fringale.debug.xcconfig"; path = "Target Support Files/Pods-Fringale/Pods-Fringale.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F702C6D293F200F000EFD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A838C3F317D8F329145725 /* Pods_Fringale.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F702C83293F2016000EFD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153CFAE2435289834A5C49BA /* Pods_FringaleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F702C8D293F2016000EFD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A9AC5A361C4EE927D84C9 /* Pods_Fringale_FringaleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B61619CDE0EEF7547F1646B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB41D4231038765C096E934B /* Pods-Fringale.debug.xcconfig */,
+				2282CD30F8A75D29C7B57AB9 /* Pods-Fringale.release.xcconfig */,
+				CF3623E488392DD088AA7AA6 /* Pods-Fringale-FringaleUITests.debug.xcconfig */,
+				53BAF4780582F0C622C9ED69 /* Pods-Fringale-FringaleUITests.release.xcconfig */,
+				64E4968B87942D7DF1DE1B95 /* Pods-FringaleTests.debug.xcconfig */,
+				C79A823B6CB5F8721D919307 /* Pods-FringaleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F2A7E4829518574003E5148 /* mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				6F66B1E029502E0E0049D42E /* CurrentLocationCell.swift */,
+				6FEDDBA1294D9411009697C3 /* PaddedTextField.swift */,
+				6F628FAD294D8AD800F8C0AD /* Constant.swift */,
+				6FEDDBA4294D9C93009697C3 /* GeoLocationSearchVC.swift */,
+				6F628FA9294D84C900F8C0AD /* mapViewVC.swift */,
+			);
+			path = mapkit;
+			sourceTree = "<group>";
+		};
+		6F32924E294D919800A5278B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6F32924F294D91C000A5278B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6FEDDB79294D9359009697C3 /* Constraint.swift */,
+				6FEDDB6B294D9358009697C3 /* ConstraintAttributes.swift */,
+				6FEDDB74294D9359009697C3 /* ConstraintConfig.swift */,
+				6FEDDB6D294D9358009697C3 /* ConstraintConstantTarget.swift */,
+				6FEDDB5C294D9358009697C3 /* ConstraintDescription.swift */,
+				6FEDDB68294D9358009697C3 /* ConstraintDSL.swift */,
+				6FEDDB77294D9359009697C3 /* ConstraintInsets.swift */,
+				6FEDDB62294D9358009697C3 /* ConstraintInsetTarget.swift */,
+				6FEDDB5F294D9358009697C3 /* ConstraintItem.swift */,
+				6FEDDB75294D9359009697C3 /* ConstraintLayoutGuide.swift */,
+				6FEDDB6C294D9358009697C3 /* ConstraintLayoutGuide+Extensions.swift */,
+				6FEDDB5E294D9358009697C3 /* ConstraintLayoutGuideDSL.swift */,
+				6FEDDB6F294D9359009697C3 /* ConstraintLayoutSupport.swift */,
+				6FEDDB76294D9359009697C3 /* ConstraintLayoutSupportDSL.swift */,
+				6FEDDB72294D9359009697C3 /* ConstraintMaker.swift */,
+				6FEDDB64294D9358009697C3 /* ConstraintMakerEditable.swift */,
+				6FEDDB67294D9358009697C3 /* ConstraintMakerExtendable.swift */,
+				6FEDDB63294D9358009697C3 /* ConstraintMakerFinalizable.swift */,
+				6FEDDB69294D9358009697C3 /* ConstraintMakerPriortizable.swift */,
+				6FEDDB6A294D9358009697C3 /* ConstraintMakerRelatable.swift */,
+				6FEDDB60294D9358009697C3 /* ConstraintMultiplierTarget.swift */,
+				6FEDDB7A294D9359009697C3 /* ConstraintOffsetTarget.swift */,
+				6FEDDB71294D9359009697C3 /* ConstraintPriority.swift */,
+				6FEDDB7B294D9359009697C3 /* ConstraintPriorityTarget.swift */,
+				6FEDDB73294D9359009697C3 /* ConstraintRelatableTarget.swift */,
+				6FEDDB78294D9359009697C3 /* ConstraintRelation.swift */,
+				6FEDDB5D294D9358009697C3 /* ConstraintView.swift */,
+				6FEDDB7C294D9359009697C3 /* ConstraintView+Extensions.swift */,
+				6FEDDB6E294D9359009697C3 /* ConstraintViewDSL.swift */,
+				6FEDDB61294D9358009697C3 /* Debugging.swift */,
+				6FEDDB7D294D9359009697C3 /* LayoutConstraint.swift */,
+				6FEDDB7E294D9359009697C3 /* LayoutConstraintItem.swift */,
+				6FEDDB70294D9359009697C3 /* SnapKit.h */,
+				6FEDDB65294D9358009697C3 /* Typealiases.swift */,
+				6FEDDB66294D9358009697C3 /* UILayoutSupport+Extensions.swift */,
+				6F66B1DE29502E040049D42E /* CurrentLocationCell.xib */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6F5034D5294B412A0052CBB2 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6F5034D7294B414E0052CBB2 /* GetStartScreen.swift */,
+				6F5034D6294B414E0052CBB2 /* OtpVerificationVC.swift */,
+				6F5034D8294B414E0052CBB2 /* SignUpVC.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		6F5034DD294B432B0052CBB2 /* Frn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frn;
+			sourceTree = "<group>";
+		};
+		6F702C67293F200F000EFD74 = {
+			isa = PBXGroup;
+			children = (
+				6F5034DD294B432B0052CBB2 /* Frn */,
+				6F702C72293F200F000EFD74 /* Fringale */,
+				6F702C89293F2016000EFD74 /* FringaleTests */,
+				6F702C93293F2016000EFD74 /* FringaleUITests */,
+				6F702C71293F200F000EFD74 /* Products */,
+				7FFF5FC9FA56067191E57559 /* Frameworks */,
+				5B61619CDE0EEF7547F1646B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6F702C71293F200F000EFD74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F702C70293F200F000EFD74 /* Fringale.app */,
+				6F702C86293F2016000EFD74 /* FringaleTests.xctest */,
+				6F702C90293F2016000EFD74 /* FringaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F702C72293F200F000EFD74 /* Fringale */ = {
+			isa = PBXGroup;
+			children = (
+				6F702C73293F200F000EFD74 /* AppDelegate.swift */,
+				6F5034D5294B412A0052CBB2 /* User */,
+				6FEDDBA3294D9C61009697C3 /* Controlller */,
+				6F702C75293F200F000EFD74 /* SceneDelegate.swift */,
+				6F702C77293F200F000EFD74 /* ViewController.swift */,
+				6F702C79293F200F000EFD74 /* Main.storyboard */,
+				6FCD172B2951D5AB0018D89C /* ProfileSettingMenuVC.swift */,
+				6F628FAB294D8A7F00F8C0AD /* AppUtlis.swift */,
+				6FBACF02294B025300370AE7 /* paymentMethodVC.swift */,
+				6F6555162949E19D00034D1D /* AllRestourantVC.swift */,
+				6F602F452948825F00885432 /* SideMenu.swift */,
+				6F32F1DD2947508E00CF8067 /* AllRestaurantsVC.swift */,
+				6F45F40F2943628C00269FD1 /* YourOrderVC.swift */,
+				6F45F40D29435D1000269FD1 /* tabbarViewController.swift */,
+				6F45F40729431E5700269FD1 /* SearchVC.swift */,
+				6F45F405294305C000269FD1 /* SettingList.swift */,
+				6F032E5D29420AE300D89AA6 /* ProfileSettingVC.swift */,
+				6F032E5B29420AA300D89AA6 /* HomeScreenVC.swift */,
+				6F032E592941EB3600D89AA6 /* PersonalDetailVC.swift */,
+				6F702C7C293F2015000EFD74 /* Assets.xcassets */,
+				6F702C7E293F2015000EFD74 /* LaunchScreen.storyboard */,
+				6F702C81293F2015000EFD74 /* Info.plist */,
+			);
+			path = Fringale;
+			sourceTree = "<group>";
+		};
+		6F702C89293F2016000EFD74 /* FringaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F32924E294D919800A5278B /* New Group */,
+				6F702C8A293F2016000EFD74 /* FringaleTests.swift */,
+			);
+			path = FringaleTests;
+			sourceTree = "<group>";
+		};
+		6F702C93293F2016000EFD74 /* FringaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F702C94293F2016000EFD74 /* FringaleUITests.swift */,
+				6F702C96293F2016000EFD74 /* FringaleUITestsLaunchTests.swift */,
+			);
+			path = FringaleUITests;
+			sourceTree = "<group>";
+		};
+		6FEDDBA3294D9C61009697C3 /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+				6F32924F294D91C000A5278B /* Source */,
+				6F2A7E4829518574003E5148 /* mapkit */,
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		7FFF5FC9FA56067191E57559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F261C321DA5B1188C8CBDD /* Pods_Fringale.framework */,
+				820C657E3841AAEBC4703DD5 /* Pods_Fringale_FringaleUITests.framework */,
+				382DBCC930FECF68ADD93AAA /* Pods_FringaleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F702C6F293F200F000EFD74 /* Fringale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F702C9A293F2016000EFD74 /* Build configuration list for PBXNativeTarget "Fringale" */;
+			buildPhases = (
+				12ED7A172F48BF73369E83F4 /* [CP] Check Pods Manifest.lock */,
+				6F702C6C293F200F000EFD74 /* Sources */,
+				6F702C6D293F200F000EFD74 /* Frameworks */,
+				6F702C6E293F200F000EFD74 /* Resources */,
+				2E65EAA8C6B3C47F2F160346 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fringale;
+			productName = Fringale;
+			productReference = 6F702C70293F200F000EFD74 /* Fringale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F702C85293F2016000EFD74 /* FringaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F702C9D293F2016000EFD74 /* Build configuration list for PBXNativeTarget "FringaleTests" */;
+			buildPhases = (
+				86FCE94604D0D54B11C7DF2C /* [CP] Check Pods Manifest.lock */,
+				6F702C82293F2016000EFD74 /* Sources */,
+				6F702C83293F2016000EFD74 /* Frameworks */,
+				6F702C84293F2016000EFD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F702C88293F2016000EFD74 /* PBXTargetDependency */,
+			);
+			name = FringaleTests;
+			productName = FringaleTests;
+			productReference = 6F702C86293F2016000EFD74 /* FringaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F702C8F293F2016000EFD74 /* FringaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F702CA0293F2016000EFD74 /* Build configuration list for PBXNativeTarget "FringaleUITests" */;
+			buildPhases = (
+				5017FF11DDAD8B4C5FB392E7 /* [CP] Check Pods Manifest.lock */,
+				6F702C8C293F2016000EFD74 /* Sources */,
+				6F702C8D293F2016000EFD74 /* Frameworks */,
+				6F702C8E293F2016000EFD74 /* Resources */,
+				79D529258D5F5A4C46962F67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F702C92293F2016000EFD74 /* PBXTargetDependency */,
+			);
+			name = FringaleUITests;
+			productName = FringaleUITests;
+			productReference = 6F702C90293F2016000EFD74 /* FringaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F702C68293F200F000EFD74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6F702C6F293F200F000EFD74 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6F702C85293F2016000EFD74 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6F702C6F293F200F000EFD74;
+					};
+					6F702C8F293F2016000EFD74 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6F702C6F293F200F000EFD74;
+					};
+				};
+			};
+			buildConfigurationList = 6F702C6B293F200F000EFD74 /* Build configuration list for PBXProject "Fringale" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F702C67293F200F000EFD74;
+			productRefGroup = 6F702C71293F200F000EFD74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F702C6F293F200F000EFD74 /* Fringale */,
+				6F702C85293F2016000EFD74 /* FringaleTests */,
+				6F702C8F293F2016000EFD74 /* FringaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F702C6E293F200F000EFD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F66B1DF29502E040049D42E /* CurrentLocationCell.xib in Resources */,
+				6F702C80293F2015000EFD74 /* LaunchScreen.storyboard in Resources */,
+				6F702C7D293F2015000EFD74 /* Assets.xcassets in Resources */,
+				6F702C7B293F200F000EFD74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F702C84293F2016000EFD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F702C8E293F2016000EFD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12ED7A172F48BF73369E83F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fringale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E65EAA8C6B3C47F2F160346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fringale/Pods-Fringale-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fringale/Pods-Fringale-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fringale/Pods-Fringale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5017FF11DDAD8B4C5FB392E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fringale-FringaleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D529258D5F5A4C46962F67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fringale-FringaleUITests/Pods-Fringale-FringaleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fringale-FringaleUITests/Pods-Fringale-FringaleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fringale-FringaleUITests/Pods-Fringale-FringaleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86FCE94604D0D54B11C7DF2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FringaleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F702C6C293F200F000EFD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCD172C2951D5AB0018D89C /* ProfileSettingMenuVC.swift in Sources */,
+				6F66B1E129502E0F0049D42E /* CurrentLocationCell.swift in Sources */,
+				6F45F4102943628C00269FD1 /* YourOrderVC.swift in Sources */,
+				6FEDDB80294D9359009697C3 /* ConstraintView.swift in Sources */,
+				6FEDDB88294D9359009697C3 /* Typealiases.swift in Sources */,
+				6FBACF03294B025300370AE7 /* paymentMethodVC.swift in Sources */,
+				6F32F1DE2947508E00CF8067 /* AllRestaurantsVC.swift in Sources */,
+				6FEDDB93294D9359009697C3 /* ConstraintPriority.swift in Sources */,
+				6FEDDB98294D9359009697C3 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				6FEDDB8F294D9359009697C3 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				6FEDDB85294D9359009697C3 /* ConstraintInsetTarget.swift in Sources */,
+				6F602F462948825F00885432 /* SideMenu.swift in Sources */,
+				6FEDDB97294D9359009697C3 /* ConstraintLayoutGuide.swift in Sources */,
+				6FEDDBA0294D9359009697C3 /* LayoutConstraintItem.swift in Sources */,
+				6FEDDB92294D9359009697C3 /* ConstraintLayoutSupport.swift in Sources */,
+				6F032E5C29420AA400D89AA6 /* HomeScreenVC.swift in Sources */,
+				6FEDDB7F294D9359009697C3 /* ConstraintDescription.swift in Sources */,
+				6FEDDB8E294D9359009697C3 /* ConstraintAttributes.swift in Sources */,
+				6F45F40E29435D1000269FD1 /* tabbarViewController.swift in Sources */,
+				6F5034D9294B414E0052CBB2 /* OtpVerificationVC.swift in Sources */,
+				6FEDDB8A294D9359009697C3 /* ConstraintMakerExtendable.swift in Sources */,
+				6F628FAE294D8AD800F8C0AD /* Constant.swift in Sources */,
+				6FEDDB81294D9359009697C3 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				6FEDDB8B294D9359009697C3 /* ConstraintDSL.swift in Sources */,
+				6FEDDB82294D9359009697C3 /* ConstraintItem.swift in Sources */,
+				6FEDDB9A294D9359009697C3 /* ConstraintRelation.swift in Sources */,
+				6FEDDB99294D9359009697C3 /* ConstraintInsets.swift in Sources */,
+				6F702C78293F200F000EFD74 /* ViewController.swift in Sources */,
+				6F032E5A2941EB3700D89AA6 /* PersonalDetailVC.swift in Sources */,
+				6F032E5E29420AE300D89AA6 /* ProfileSettingVC.swift in Sources */,
+				6FEDDB95294D9359009697C3 /* ConstraintRelatableTarget.swift in Sources */,
+				6FEDDB9F294D9359009697C3 /* LayoutConstraint.swift in Sources */,
+				6FEDDB94294D9359009697C3 /* ConstraintMaker.swift in Sources */,
+				6F6555172949E19D00034D1D /* AllRestourantVC.swift in Sources */,
+				6FEDDB9C294D9359009697C3 /* ConstraintOffsetTarget.swift in Sources */,
+				6F45F40829431E5700269FD1 /* SearchVC.swift in Sources */,
+				6FEDDB90294D9359009697C3 /* ConstraintConstantTarget.swift in Sources */,
+				6FEDDB86294D9359009697C3 /* ConstraintMakerFinalizable.swift in Sources */,
+				6FEDDBA2294D9411009697C3 /* PaddedTextField.swift in Sources */,
+				6F45F406294305C000269FD1 /* SettingList.swift in Sources */,
+				6F5034DA294B414E0052CBB2 /* GetStartScreen.swift in Sources */,
+				6F702C74293F200F000EFD74 /* AppDelegate.swift in Sources */,
+				6FEDDB84294D9359009697C3 /* Debugging.swift in Sources */,
+				6FEDDB91294D9359009697C3 /* ConstraintViewDSL.swift in Sources */,
+				6F702C76293F200F000EFD74 /* SceneDelegate.swift in Sources */,
+				6F628FAC294D8A7F00F8C0AD /* AppUtlis.swift in Sources */,
+				6FEDDB9E294D9359009697C3 /* ConstraintView+Extensions.swift in Sources */,
+				6FEDDB8C294D9359009697C3 /* ConstraintMakerPriortizable.swift in Sources */,
+				6F628FAA294D84CA00F8C0AD /* mapViewVC.swift in Sources */,
+				6F5034DB294B414E0052CBB2 /* SignUpVC.swift in Sources */,
+				6FEDDB87294D9359009697C3 /* ConstraintMakerEditable.swift in Sources */,
+				6FEDDB9B294D9359009697C3 /* Constraint.swift in Sources */,
+				6FEDDB9D294D9359009697C3 /* ConstraintPriorityTarget.swift in Sources */,
+				6FEDDB96294D9359009697C3 /* ConstraintConfig.swift in Sources */,
+				6FEDDB8D294D9359009697C3 /* ConstraintMakerRelatable.swift in Sources */,
+				6FEDDB83294D9359009697C3 /* ConstraintMultiplierTarget.swift in Sources */,
+				6FEDDB89294D9359009697C3 /* UILayoutSupport+Extensions.swift in Sources */,
+				6FEDDBA5294D9C93009697C3 /* GeoLocationSearchVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F702C82293F2016000EFD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F702C8B293F2016000EFD74 /* FringaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F702C8C293F2016000EFD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F702C97293F2016000EFD74 /* FringaleUITestsLaunchTests.swift in Sources */,
+				6F702C95293F2016000EFD74 /* FringaleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F702C88293F2016000EFD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F702C6F293F200F000EFD74 /* Fringale */;
+			targetProxy = 6F702C87293F2016000EFD74 /* PBXContainerItemProxy */;
+		};
+		6F702C92293F2016000EFD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F702C6F293F200F000EFD74 /* Fringale */;
+			targetProxy = 6F702C91293F2016000EFD74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F702C79293F200F000EFD74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F702C7A293F200F000EFD74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F702C7E293F2015000EFD74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F702C7F293F2015000EFD74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F702C98293F2016000EFD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F702C99293F2016000EFD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F702C9B293F2016000EFD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB41D4231038765C096E934B /* Pods-Fringale.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fringale/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fringale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F702C9C293F2016000EFD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2282CD30F8A75D29C7B57AB9 /* Pods-Fringale.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fringale/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fringale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F702C9E293F2016000EFD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E4968B87942D7DF1DE1B95 /* Pods-FringaleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FringaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fringale.app/Fringale";
+			};
+			name = Debug;
+		};
+		6F702C9F293F2016000EFD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79A823B6CB5F8721D919307 /* Pods-FringaleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FringaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fringale.app/Fringale";
+			};
+			name = Release;
+		};
+		6F702CA1293F2016000EFD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3623E488392DD088AA7AA6 /* Pods-Fringale-FringaleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FringaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fringale;
+			};
+			name = Debug;
+		};
+		6F702CA2293F2016000EFD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BAF4780582F0C622C9ED69 /* Pods-Fringale-FringaleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FringaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fringale;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F702C6B293F200F000EFD74 /* Build configuration list for PBXProject "Fringale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F702C98293F2016000EFD74 /* Debug */,
+				6F702C99293F2016000EFD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F702C9A293F2016000EFD74 /* Build configuration list for PBXNativeTarget "Fringale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F702C9B293F2016000EFD74 /* Debug */,
+				6F702C9C293F2016000EFD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F702C9D293F2016000EFD74 /* Build configuration list for PBXNativeTarget "FringaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F702C9E293F2016000EFD74 /* Debug */,
+				6F702C9F293F2016000EFD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F702CA0293F2016000EFD74 /* Build configuration list for PBXNativeTarget "FringaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F702CA1293F2016000EFD74 /* Debug */,
+				6F702CA2293F2016000EFD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F702C68293F200F000EFD74 /* Project object */;
+}

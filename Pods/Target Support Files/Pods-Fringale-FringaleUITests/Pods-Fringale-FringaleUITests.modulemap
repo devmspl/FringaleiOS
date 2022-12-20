@@ -1,0 +1,6 @@
+framework module Pods_Fringale_FringaleUITests {
+  umbrella header "Pods-Fringale-FringaleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

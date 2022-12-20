@@ -1,0 +1,6 @@
+framework module Pods_Fringale {
+  umbrella header "Pods-Fringale-umbrella.h"
+
+  export *
+  module * { export * }
+}
